@@ -119,16 +119,16 @@
       <div class="row">
         <div class="col">
             <p>Cantidad</p>
-          <input type="text" class="form-control" id="cant" placeholder="Cantidad" onkeyup="calcularTotal()">
+               <input type="text" class="form-control" id="cant" placeholder="Cantidad">
         </div>
     
         <div class="col">
             <p>Categoría</p>
-            <select class="form-select" aria-label="Estudiante" id="categoria" onchange="calcularTotal()">
-                <option value="1" se>Estudiante</option>
-                <option value="2">Trainee</option>
-                <option value="3">Junior</option>
-              </select>
+                 <select class="form-select" aria-label="Estudiante" id="categoria">
+                  <option value="1" se>Estudiante</option>
+                  <option value="2">Trainee</option>
+                  <option value="3">Junior</option>
+                </select>
        <br>
             </div>   
         </div> 
@@ -144,7 +144,7 @@
 
 <!-- botones restablecer - resumen -->
       <div class="d-flex align-content-center">
-        <input type="reset" value="Restablecer" class="w-50 btn bg-light-green text-white" style="margin-right: 10px;" onclick="reset1();" >
+        <input type="reset" value="Restablecer" class="w-50 btn bg-light-green text-white" style="margin-right: 10px;" onclick="reset0();" >
        
         <input  value="Resumen" class="w-50 btn bg-light-green text-white" style="margin-left: 10px;" onclick="calcularTotal()">
       
