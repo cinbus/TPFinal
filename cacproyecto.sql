@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-07-2022 a las 17:16:02
--- Versión del servidor: 10.4.14-MariaDB
--- Versión de PHP: 7.4.10
+-- Tiempo de generación: 07-08-2022 a las 17:58:12
+-- Versión del servidor: 10.4.24-MariaDB
+-- Versión de PHP: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -133,20 +133,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`idusuario`, `usuario`, `clave`) VALUES
-(1, 'prueba@gmail.com', '909090'),
-(2, 'mail@hotmail.com', '808080'),
-(6, 'jsuarez@gmail.com', '111'),
-(8, 'jose@gmail.com', '111'),
-(11, 'psuarez@gmail.com', '111'),
-(12, 'jperez@gmail.com', '111'),
-(13, 'jperez2@gmail.com', 'eeee'),
-(15, 'pepe@gmail.com', 'Codocodo1234'),
-(19, 'jherben@gmail.com', 'Codo1234'),
-(23, 'jrodriguez@gmail.com', 'Codo1234'),
-(24, 'grodriguez@gmail.com', 'Codo1234'),
-(25, 'lperez@gmail.com', 'Codo1234'),
-(27, 'sjperez@gmail.com', 'Codo1234'),
-(36, 'rsanchez@gmail.com', 'Codo1234');
+(40, 'cinthia.bustos@gmail', 'Hola123*'),
+(41, 'prueba@gmail.com', 'Prueba123*');
 
 --
 -- Índices para tablas volcadas
@@ -207,7 +195,7 @@ ALTER TABLE `provincias`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `idusuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `idusuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
 
 --
 -- Restricciones para tablas volcadas
